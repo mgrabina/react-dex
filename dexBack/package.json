@@ -1,0 +1,23 @@
+{
+  "name": "dexback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@moralisweb3/core": "^2.7.4",
+    "@moralisweb3/evm": "^2.0.0-alpha.2",
+    "@moralisweb3/evm-api": "^2.23.1",
+    "@moralisweb3/evm-utils": "^2.23.1",
+    "@moralisweb3/evm-wallet-connect-connector": "^2.0.0-alpha.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "moralis": "^2.11.1"
+  }
+}
