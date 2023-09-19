@@ -54,26 +54,27 @@ yarn install
 
 ## Usage
 
-CD into the dexBack folder and create a file called .env. Within the .env file, add a MORALIS_KEY variable with the moralis api key you can get from [here](https://admin.moralis.io/login).
+In the dexBack folder, create a file called .env. Within the .env file, add a MORALIS_KEY variable with the moralis api key you can get from [here](https://admin.moralis.io/login).
 
 i.e. MORALIS_KEY=dwindwdiwndiwniwndiwdinwdinwdidindiwn
+
+In a seperate terminal window, run the backend node server:
 
 Run the backend server:
 
 ```bash
+cd dexBack
 node index.js
 ```
 
-Open another terminal window and cd into the dex folder. Run the development server:
+In another terminal window, run the development server::
 
 ```bash
 cd ..
 cd dex
 npm run start
 # or
-yarn dev
-# or
-pnpm dev
+yarn start
 ```
 
 Finally, open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
