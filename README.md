@@ -5,11 +5,11 @@
 
 
 
-nextjs-dex
+react-dex
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-The nextjs-dex is a decentralized exchange built using NextJS, Moralis, 1Inch Aggregator, Wagmi and NodeJS. It allows users to connect their digital wallet and exchange digital tokens. It also presents the available tokens for swapping in the Tokens page.
+The react-dex is a decentralized exchange built using React and NodeJS. It allows users to connect their digital wallet and exchange digital tokens. It also presents the available tokens for swapping in the Tokens page.
 
 ## Table of Contents
 
