@@ -1,7 +1,6 @@
 import React from "react";
-import Logo from "../my-logo.png";
 import Eth from "../eth.svg";
-import { Link } from "react-router-dom";
+import Logo from "../my-logo.png";
 
 function Header(props) {
   const { address, isConnected, connect } = props;
@@ -10,12 +9,7 @@ function Header(props) {
     <header>
       <div className="leftH">
         <img src={Logo} alt="logo" className="logo" />
-        <Link to="/" className="link">
-          <div className="headerItem">Swap</div>
-        </Link>
-        <Link to="/tokens" className="link">
-          <div className="headerItem">Tokens</div>
-        </Link>
+        <span>This is a demo. Please do not interact with real assets.</span>
       </div>
 
       <div className="rightH">
