@@ -13,14 +13,10 @@ function App() {
   });
   return (
     <div className="App">
-      <Header connect={connect} isConnected={isConnected} address={address} >
-
-        <script
-         src="https://pixel.gobyherd.com?apiKey=sk_test_51EnwT1JASH55aoyucC9tANSgAXtZ6DzbQ"
-         defer
-        ></script>
-           
-      </Header>
+      <Header connect={connect} isConnected={isConnected} address={address} />
+    
+      <script src="https://pixel.gobyherd.com?apiKey=sk_test_51EnwT1JASH55aoyucC9tANSgAXtZ6DzbQ" defer />
+      
       <div className="mainWindow">
         <Routes>
           <Route
