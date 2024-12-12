@@ -238,7 +238,7 @@ function Swap(props) {
 
         <div
           className="swapButton"
-          disabled={!tokenOneAmount || !isConnected}
+          disabled={true}
           // onClick={fetchDexSwap}
         >
           Swap
