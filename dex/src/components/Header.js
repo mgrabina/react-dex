@@ -9,7 +9,6 @@ function Header(props) {
     <header>
       <div className="leftH">
         <img src={Logo} alt="logo" className="logo" />
-        <span>This is a demo. Please do not interact with real assets.</span>
       </div>
 
       <div className="rightH">
